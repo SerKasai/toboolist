@@ -27,7 +27,7 @@ header {
 /* Main */
 main {
     background: rgb(226, 226, 226);
-    height: 400px;
+    height: 605px;
     padding: 20px 0;
 }
 
@@ -91,6 +91,10 @@ h3 {
     height: 25px;
     width: 25px;
     text-align: center;
+}
+
+.toboo span{
+    vertical-align: middle;
 }
 
 .btn2 {
