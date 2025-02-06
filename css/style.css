@@ -28,19 +28,27 @@ header {
 main {
     background: rgb(226, 226, 226);
     height: 400px;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
-.toboos {
+.mt1 {
+    margin-top: 1px;
 }
 
 .container {
     background: white;
-    border-radius: 5px;
     width: 1024px;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 20px;
-    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.container-top {
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 1px;
+}
+
+.container-bottom {
+    border-radius: 0 0 20px 20px;
 }
 
 .btn {
@@ -60,4 +68,26 @@ main {
     background: rgb(255, 255, 255);
     color: grey;
     border-color: grey;
+}
+
+.icon {
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.btn2 {
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid;
+}
+
+.btn-edit {
+    background: rgb(94, 159, 255);
+    color: rgb(255, 255, 255);
+    border-color: rgb(94, 159, 255);
 }
