@@ -1,0 +1,49 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.main-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Main */
+main {
+    background: rgb(226, 226, 226);
+    height: 400px;
+    padding-top: 20px;
+}
+
+.actions {
+    margin: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 5px;
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+.btn-task {
+    background: rgb(36, 123, 253);
+    color: white;
+}
