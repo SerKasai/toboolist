@@ -121,3 +121,15 @@ h3 {
     color: rgb(255, 255, 255);
     border-color: rgb(238, 142, 17);
 }
+
+.btn-web {
+    background: rgb(250, 96, 96);
+    color: rgb(255, 255, 255);
+    border-color: rgb(250, 96, 96);
+}
+
+.btn-sal {
+    background: rgb(161, 179, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(161, 179, 0);
+}
